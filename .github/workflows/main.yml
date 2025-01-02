@@ -24,7 +24,7 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add test.txt
+        git add 平方.txt
         git add project.log
         git commit -m "Auto-update"
         git push origin main
