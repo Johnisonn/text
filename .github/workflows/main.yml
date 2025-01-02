@@ -17,10 +17,8 @@ jobs:
       with:
         python-version: '3.13'
 
-
-
     - name: Run Python script
-      run: python function/main.py
+      run: python fuction/main.py
 
     - name: Commit and push if changed
       run: |
