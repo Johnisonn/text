@@ -18,8 +18,7 @@ jobs:
         python-version: '3.13'
 
     - name: Run Python script
-      working-directory: ./function
-      run: python main.py
+      run: python fuction/main.py
 
     - name: Commit and push if changed
       run: |
