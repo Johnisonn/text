@@ -20,6 +20,10 @@ jobs:
     - name: Run Python script
       run: python fuction/main.py
 
+    - name: List directory structure
+      run: |
+        ls -lR
+     
     - name: Commit and push if changed
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
